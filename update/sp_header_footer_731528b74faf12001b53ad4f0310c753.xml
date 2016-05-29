@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  // widget controller
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.sample-footer {&#13;
+  background-color: black; &#13;
+  color: white; &#13;
+  padding: 5px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Scoped Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+ data.message =  gs.getProperty('jj.portal.footer');
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-29 07:39:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>731528b74faf12001b53ad4f0310c753</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scoped Footer</sys_name>
+        <sys_package display_value="My Scoped Portal" source="x_snc_my_scoped_po">bdf260774faf12001b53ad4f0310c7c2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My Scoped Portal">bdf260774faf12001b53ad4f0310c7c2</sys_scope>
+        <sys_update_name>sp_header_footer_731528b74faf12001b53ad4f0310c753</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-29 07:39:41</sys_updated_on>
+        <template><![CDATA[ <div class="sample-footer">	
+ {{::c.data.message}}
+ </div>]]></template>
+    </sp_header_footer>
+</record_update>

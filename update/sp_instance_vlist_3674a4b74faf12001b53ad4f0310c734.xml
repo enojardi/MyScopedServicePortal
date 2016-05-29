@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter table="incident">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>bell-o</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d574a4b74faf12001b53ad4f0310c732</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-29 07:36:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3674a4b74faf12001b53ad4f0310c734</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Scoped Incidents</sys_name>
+        <sys_package display_value="My Scoped Portal" source="x_snc_my_scoped_po">bdf260774faf12001b53ad4f0310c7c2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My Scoped Portal">bdf260774faf12001b53ad4f0310c7c2</sys_scope>
+        <sys_update_name>sp_instance_vlist_3674a4b74faf12001b53ad4f0310c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-29 07:38:21</sys_updated_on>
+        <table>incident</table>
+        <title>My Scoped Incidents</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+</record_update>
